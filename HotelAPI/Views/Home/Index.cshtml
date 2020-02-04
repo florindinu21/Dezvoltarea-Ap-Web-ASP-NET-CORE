@@ -12,8 +12,8 @@
 
         @if (!SignInManager.IsSignedIn(User))
         {
-            <h3>First time with us? Go to <a asp-action="Register" asp-controller="Account">Login page</a> and make your account.</h3>
-            <h3>Already have an account? Go to <a asp-action="Login" asp-controller="Account">Register page</a> and go booking!</h3>
+            <h3>First time with us? Go to <a asp-action="Login" asp-controller="Account">Login page</a> and make your account.</h3>
+            <h3>Already have an account? Go to <a asp-action="Register" asp-controller="Account">Register page</a> and go booking!</h3>
         }
         else
         {
